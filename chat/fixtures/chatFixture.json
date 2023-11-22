@@ -1,0 +1,11 @@
+[
+  {
+    "model": "chat.message",
+    "pk": 1,
+    "fields": {
+      "message": "Hello, World!",
+      "user": "ilovecats420",
+      "date": "2023-01-01T00:00:00Z"
+    }
+  }
+]
