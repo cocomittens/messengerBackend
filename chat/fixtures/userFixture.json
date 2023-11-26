@@ -1,0 +1,20 @@
+[
+  {
+    "model": "chat.userProfile",
+    "pk": 3,
+    "fields": {
+      "username": "ilovecats420",
+      "image": "https://pusheen.com/wp-content/uploads/2020/12/What-Sweet-Quiz-SocialResults_Donut-1-e1608220861325.jpg",
+      "online": true
+    }
+  },
+  {
+    "model": "chat.userProfile",
+    "pk": 4,
+    "fields": {
+      "username": "You",
+      "image": "https://pusheen.com/wp-content/uploads/2020/12/What-Sweet-Quiz-SocialResults_Donut-1-e1608220861325.jpg",
+      "online": false
+    }
+  }
+]

@@ -4,8 +4,19 @@
     "pk": 1,
     "fields": {
       "message": "Hello, World!",
-      "user": "ilovecats420",
+      "sender": 3,
+      "recipient": 4,
       "date": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "chat.message",
+    "pk": 2,
+    "fields": {
+      "message": "super pog",
+      "sender": 3,
+      "recipient": 4,
+      "date": "2023-11-24T00:00:00Z"
     }
   }
 ]

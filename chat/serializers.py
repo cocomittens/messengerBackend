@@ -4,4 +4,9 @@ from .models import Message
 class MessageSerializer(serializers.ModelSerializer):
     class Meta:
         model = Message
-        fields = ('id', 'message', 'user', 'date')
+        fields = ('id', 'sender', 'recipient', 'message', 'date')
+
+class UserProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Message
+        fields = ('id', 'username', 'image', 'online')
