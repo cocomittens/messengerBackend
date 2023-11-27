@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Message
+from .models import Message, UserProfile
 
 class MessageSerializer(serializers.ModelSerializer):
     class Meta:
@@ -8,5 +8,5 @@ class MessageSerializer(serializers.ModelSerializer):
 
 class UserProfileSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Message
+        model = UserProfile
         fields = ('id', 'username', 'image', 'online')

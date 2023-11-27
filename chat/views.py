@@ -9,5 +9,5 @@ class MessageViewSet(viewsets.ModelViewSet):
     serializer_class = MessageSerializer
 
 class UserProfileViewSet(viewsets.ModelViewSet):
-    queryset = UserProfile.objects.all().order_by('-username')
+    queryset = UserProfile.objects.all()
     serializer_class = UserProfileSerializer

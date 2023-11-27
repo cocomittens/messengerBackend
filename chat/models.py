@@ -9,8 +9,8 @@ class UserProfile(models.Model):
         return self.username
 
 class Message(models.Model):
-    sender = models.ForeignKey(UserProfile, related_name='sent_messages', on_delete=models.CASCADE, default=1)
-    recipient = models.ForeignKey(UserProfile, related_name='received_messages', on_delete=models.CASCADE, default=1)
+    sender = models.ForeignKey(UserProfile, related_name='sent_messages', on_delete=models.CASCADE, default=3)
+    recipient = models.ForeignKey(UserProfile, related_name='received_messages', on_delete=models.CASCADE, default=4)
     message = models.CharField(max_length=1300)
     date = models.DateTimeField(auto_now_add=True)
 
